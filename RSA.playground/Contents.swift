@@ -9,7 +9,7 @@ Due: TBD. Probably will be Tuesday, April 5th, 2016.
 
 ## Reading that is Related to this Week's Lectures and/or This Problem Set
 
-For this problem set, we are going to learn Rivest-Shamir-Adleman (RSA) cryptography by implementing _the first six sections_ of the Wikibook [A Basic Public Key Example]( https://en.wikibooks.org/wiki/A_Basic_Public_Key_Example ).
+For this problem set, we are going to learn Rivest-Shamir-Adleman (RSA) cryptography by implementing _the first six sections_ of the Wikibook [A Basic Public Key Example]( https://en.wikibooks.org/wiki/A_Basic_Public_Key_Example ). For convenience I snarfed a printable copy of those six sections into this project.
 
 The Achilles heel of RSA cryptography is that you had to give your public key to somebody, and this step was susceptible to a man-in-the-middle (MITM) attack, partly because the delivery of the public key was done "in the clear" (unencrypted), and partly because the delivery of the public key was a one-time-only operation, so if that step was compromised, all communication thereafter was compromised.
 
