@@ -17,9 +17,9 @@ With NSA-level computing resources, keys of length 1024 bits may be breakable. W
 
 ## Directions Specific to this Problem Set
 
-This is the first of two Problem Sets on RSA cryptography. We need a bunch of utilities involving primes, so that's what you'll build.
+This is the first of two Problem Sets on RSA cryptography. We need a bunch of utilities involving primes, so that's what you'll build first.
  
-Implement, the following functions:
+Implement the following functions:
  
 1. (2 pts) primes(highest: Int) -> [Int]
 
@@ -31,23 +31,23 @@ Implement, the following functions:
 
 5. (2 pts) coprimes(f: Int) -> [Int]
  
-If you do them in order and do them correctly, each time you finish a Part, some more unit tests will pass.
+If you do them in order and do them correctly, each time you finish a function, some more unit tests will pass.
  
-I have created skeleton implmementations for each of these functions. They just return nil or an empty array. Those skeleton functions are what you must re-implement.
+I have created skeleton implementations for each of these functions. They just return nil or an empty array. Those skeleton functions are what you must re-implement.
  
 Be sure to read the comments around each function.
- 
+
 The hardest function would have been the first one, but I already implemented a lot of it by implementing sieveOfEratosthenes, which you can just use.
  
 ## General Directions for all Problem Sets
  
 1. Fork this repository to create a repository in your own Github account. Then clone your fork to whatever machine you are working on.
  
-2. These problem sets are created with the latest version of Xcode and Mac OS X: XCode 7.3 and OS X 10.11.4. I haven't tested how well this problem set will work under Xcode 7.2.1, but it probably will.
+2. These problem sets are created with the latest version of Xcode and Mac OS X: Xcode 7.3 and OS X 10.11.4. I haven't tested how well this problem set will work under Xcode 7.2.1, but it probably will.
  
 3. Under no circumstances copy-and-paste any part of a solution from another student in the class. Also, under no circumstances ask outsiders on Stack Exchange or other programmers' forums to help you create your solution. It is however fine&mdash;especially when you are truly stuck&mdash;to ask others to help you with your solution, provided you do all of the typing. They should only be looking over your shoulder and commenting. It is of course also fine to peruse StackExchange and whatever other resources you find helfpul.
  
-4. Your solution should be clean and exhibit good style. At minimum, Xcode should not flag warnings of any kind. Your style should match Apple's as shown by their examples and declarations. Use the same indentation and spacing around operators as Apple uses. Use their capitalization conventions. Use parts of speech and grammatical number the same way as Apple does.  Use descriptive names for variables. Avoid acronyms or abbreviations. I am still coming up to speed on good Swift style. When there appears to be conflict my style and Apple's, copy Apple's, not mine.
+4. Your solution should be clean and exhibit good style. At minimum, Xcode should not flag warnings of any kind. Your style should match Apple's as shown by their examples and declarations. Use the same indentation and spacing around operators as Apple uses. Use their capitalization conventions. Use parts of speech and grammatical number the same way as Apple does. Use descriptive names for variables. Avoid acronyms or abbreviations. I am still coming up to speed on good Swift style. When there appears to be conflict my style and Apple's, copy Apple's, not mine.
  
 5. When completed, before the class the problem set is due, commit your changes to your fork of the repository. I should be able to simply clone your fork, build it and execute it in my environment without encountering any warnings, adding any dependencies or making any modifications.
  
